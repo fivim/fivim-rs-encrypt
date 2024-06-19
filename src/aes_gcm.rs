@@ -116,7 +116,7 @@ mod tests {
 
     use base64::engine::general_purpose::STANDARD;
     use base64::Engine;
-    use enassi_rs_utils::hash as xu_hash;
+    use fivim_rs_utils::hash as xu_hash;
 
     use crate::aes_gcm::{decrypt, encrypt, key_from_string, key_from_vec, nonce_from_string};
 

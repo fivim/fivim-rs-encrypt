@@ -1,10 +1,10 @@
 [package]
-name = "enassi-rs-encrypt"
-description = "Rust encryption library for enassi."
+name = "fivim-rs-encrypt"
+description = "Rust encryption library for fivim."
 version = "1.0.0"
 authors = ["newproplus <https://github.com/newproplus>"]
-homepage = "https://github.com/enassi/enassi-rs-encrypt"
-repository = "https://github.com/enassi/enassi-rs-encrypt"
+homepage = "https://github.com/fivim/fivim-rs-encrypt"
+repository = "https://github.com/fivim/fivim-rs-encrypt"
 edition = "2021"
 license-file = "LICENSE"
 readme = "README.md"
@@ -21,4 +21,4 @@ rand_core = "^0.6"
 serde_json = "^1.0"
 serde = { version = "^1.0", features = ["derive"] }
 aes-gcm = "^0.10"
-enassi-rs-utils = "1.0.0"
+fivim-rs-utils = "1.0.0"
